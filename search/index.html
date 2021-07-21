@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="topright">
+    <div class="header">
         <form>
             <button id="searchbutton" type="submit" formaction="advsearch.html">Google Advanced</button>
             <button id="searchbutton" type="submit" formaction="imgsearch.html">Google Images</button>
@@ -13,12 +13,16 @@
    </div>
 
      <div class="search">
-        <img id="googlelogo" src="images/googlelogo.png" alt="Google Logo"><br><br>
+        <img id="googlelogo" src="images/googlelogo.png" alt="Google Logo">
        
         <form action="https://google.com/search">
-            <input id="Rounded" type="text" name="q"> <br><br>
-            <input id="searchbutton" type="submit" value="Google Search">
-            <button id="searchbutton" type="submit" name="btnl" value="1" class="button">I'm Feeling Lucky</button>
+            <input id="Rounded" type="text" name="q"> 
+            
+            <div class="buttons">
+            <button id="searchbuttonsrch" type="submit" name="btnl" value="1" class="button">Google Search</button>
+            
+            <button id="searchbuttonlcky" type="submit" name="btnl" value="1" class="button">I'm Feeling Lucky</button>
+        </div>
         </form>
    
     </div>
